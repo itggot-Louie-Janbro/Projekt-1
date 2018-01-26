@@ -26,27 +26,25 @@ div.header>i {
 div.login {
     grid-column: span 1;
     grid-row: 6/7;
-    background-color: rgb(226, 6, 197);
     margin: 0.5vh;
-    border-radius: 5px;
     margin: auto;
 }
 
 div.login>input {
     width: 70vw;
     height: 5vh;
+    border-radius: 5px;
 }
 
 div.password {
     grid-column: span 1;
     grid-row: 7/8;
-    background-color: rgb(226, 6, 197);
     margin: 0.5vh;
-    border-radius: 5px;
     margin: auto;
 }
 
 div.password>input {
     width: 70vw;
     height: 5vh;
+    border-radius: 5px;
 }
