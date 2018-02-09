@@ -20,6 +20,7 @@ div.header>i {
     font-size: 200px;
     margin-left: 22vw;
     margin-top: 5vw;
+    text-align: right;
 }
 
 
@@ -47,4 +48,21 @@ div.password>input {
     width: 70vw;
     height: 5vh;
     border-radius: 5px;
+}
+
+div.button {
+    margin: auto;
+}
+
+button.login {
+    grid-column: span 1;
+    grid-row: 8/9;
+    margin: auto;
+    align-content: center;
+    width: 35vw;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(226, 6, 197);
+    border: 0px;
 }
