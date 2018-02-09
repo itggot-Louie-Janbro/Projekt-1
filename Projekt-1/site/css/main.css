@@ -60,9 +60,23 @@ button.login {
     margin: auto;
     align-content: center;
     width: 35vw;
-    height: 40px;
+    height: 6vh;
     border-radius: 5px;
     color: black;
     background-color: rgb(226, 6, 197);
     border: 0px;
 }
+
+button.register {
+    grid-column: span 1;
+    grid-row: 9/10;
+    margin: auto;
+    align-content: center;
+    width: 35vw;
+    height: 6vh;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(226, 6, 197);
+    border: 0px;
+}
+
