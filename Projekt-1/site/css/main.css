@@ -21,6 +21,7 @@ div.header>i {
     margin-left: 22vw;
     margin-top: 5vw;
     text-align: right;
+    
 }
 
 
@@ -35,6 +36,7 @@ div.login>input {
     width: 70vw;
     height: 5vh;
     border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div.password {
@@ -42,12 +44,15 @@ div.password {
     grid-row: 7/8;
     margin: 0.5vh;
     margin: auto;
+    color: black;
 }
 
 div.password>input {
     width: 70vw;
     height: 5vh;
     border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 div.button {
@@ -65,6 +70,8 @@ button.login {
     color: black;
     background-color: rgb(226, 6, 197);
     border: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 button.register {
@@ -76,7 +83,17 @@ button.register {
     height: 6vh;
     border-radius: 5px;
     color: black;
+    font-size: 20px;
     background-color: rgb(226, 6, 197);
+    font-family: Arial, Helvetica, sans-serif;
     border: 0px;
+    
 }
 
+div.footer {
+    grid-column: span 1;
+    grid-row: 9/13;
+    background-color: rgb(226, 6, 197);
+    margin: 0.5vh;
+    border-radius: 5px;
+}
