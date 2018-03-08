@@ -132,3 +132,10 @@ div.footer {
     margin: 0.5vh;
     border-radius: 2.5px;
 }
+
+@media only screen and (min-device-width: 500px) {
+    body{
+        background-color: darkgoldenrod;
+    
+    }
+}
