@@ -23,10 +23,37 @@ div.header {
     border-radius: 2.5px;
 }
 
-i.material-icons {
-    font-size: 7.5vh;
-    grid-column: 6/7;
+.container>div.header>i.material-icons {
+    font-size: 6vh;
+    grid-column: 1/2;
     grid-row: 1/2;
+    color: white;
+}
+
+div.menu {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.menu{
+    width: 50vw;
+    height: 30vh;
+    position: absolute;
+    background: rgb(226, 6, 197);
+    display: none;
+    margin: 0.5vh;
+    color: white;
+}
+
+.menu i.material-icons{    
+    font-size: 25px;
+}
+
+.show{
+    display: block;
+}
+.fade{
+    background-color: rgb(100,100,100)
 }
 
 div.pic {

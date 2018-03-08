@@ -11,8 +11,19 @@
 </head>
 <body>
     <div class="container">
-        <div class="header"></div>
-        <i class="material-icons">&#xE8FE;</i>
+
+        <div class="header">
+            <i class="material-icons" onclick="toggleMenu()">menu</i>
+        </div>
+        <div class="menu">
+            <i class="material-icons" onclick="toggleMenu()">close</i>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+        </div>
         <div class="pic">Profile pic here</div>
         <div class="location">(Location)</div>
         <div class="age">(age)</div>¨
@@ -25,5 +36,6 @@
         </div>
         <div class="footer"></div>
     </div>
+    <script src="js/menu.js"></script>
 </body>
 </html>
