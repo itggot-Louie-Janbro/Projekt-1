@@ -64,9 +64,10 @@ div.menu {
 div.pic {
     grid-column: 1/5;
     grid-row: 2/6;
-    background-color: olive;
     margin: 2px;
     border: red;
+    border-radius: 2.5px;
+    margin: auto;
     border-radius: 2.5px;
 }
 
@@ -138,4 +139,8 @@ div.footer {
         background-color: darkgoldenrod;
     
     }
+}
+
+.menu>li>a {
+    color: white;
 }
