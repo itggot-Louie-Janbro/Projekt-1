@@ -246,3 +246,48 @@ div.proffooter {
     color: white;
 }
 
+
+.regfirstname {
+    grid-row: 7/8;
+    grid-column: 3/4;
+    height: 20px;
+    width: 110px;
+    margin: auto;
+    margin-right: 2px
+}
+
+.reglastname {
+    grid-row: 7/8;
+    grid-column: 4/5;
+    height: 20px;
+    width: 110px;
+    margin: auto;
+    margin-left: 2px
+}
+
+.regemail {
+    grid-row: 8/9;
+    grid-column: 3/5 ;
+    height: 20px;
+    margin: auto;
+    width: 220px;
+}
+
+.regpassword {
+    grid-row: 9/10;
+    grid-column: 3/4;
+    height: 20px;
+    width: 110px;
+    margin: auto;
+    margin-right: 2px;
+}
+
+.regconfpassword {
+    grid-row: 9/10;
+    grid-column: 4/5;
+    height: 20px;
+    width: 110px;
+    margin: auto;
+    margin-left: 2px
+}
+
