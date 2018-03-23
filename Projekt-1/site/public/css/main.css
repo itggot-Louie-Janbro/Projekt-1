@@ -1,0 +1,116 @@
+
+body {
+    background-color: black;
+    margin: auto;
+    width: 100vw;
+    height: 90vh;
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+div.header {
+    grid-column: span 1;
+    grid-row: 1/6;
+    background-color: rgb(226, 6, 197);
+    margin: 0.5vh;
+    border-radius: 5px;
+}
+
+div.header>i {
+    font-size: 200px;
+    margin-left: 22vw;
+    margin-top: 5vw;
+    text-align: right;
+    
+}
+
+
+div.login {
+    grid-column: span 1;
+    grid-row: 6/7;
+    margin: 0.5vh;
+    margin: auto;
+}
+
+div.login>input {
+    width: 70vw;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.password {
+    grid-column: span 1;
+    grid-row: 7/8;
+    margin: 0.5vh;
+    margin: auto;
+    color: black;
+}
+
+div.password>input {
+    width: 70vw;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+div.button {
+    margin: auto;
+}
+
+button.login {
+    grid-column: span 1;
+    grid-row: 8/9;
+    margin: auto;
+    align-content: center;
+    width: 35vw;
+    height: 35px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(226, 6, 197);
+    border: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button.register {
+    grid-column: span 1;
+    grid-row: 9/10;
+    margin: auto;
+    align-content: center;
+    width: 35vw;
+    height: 35px;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    background-color: rgb(226, 6, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    
+}
+
+div.footer {
+    grid-column: span 1;
+    grid-row: 9/13;
+    background-color: rgb(226, 6, 197);
+    margin: 0.5vh;
+    border-radius: 5px;
+}
+
+@media only screen and (min-device-width: 500px) {
+    body{
+        background-color: darkgoldenrod;
+    
+    }
+}
+
+div.button>button>a {
+    color: black;
+}
