@@ -121,7 +121,7 @@ div.loginbutton>button>a {
 
 
 
-div.header {
+div.profheader {
     grid-column:  1/7;
     grid-row: 1/2;
     background-color: rgb(226, 6, 197);
@@ -129,24 +129,24 @@ div.header {
     border-radius: 2.5px;
 }
 
-.container>div.header>i.material-icons {
+.container>div.profheader>i.material-icons {
     font-size: 6vh;
     grid-column: 1/2;
     grid-row: 1/2;
     color: white;
 }
 
-div.menu>li {
+div.profmenu>li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
 
-div.menu {
+div.profmenu {
     grid-column: 1/2;
     grid-row: 1/2;
 }
 
-.menu{
+.profmenu{
     width: 50vw;
     height: 30vh;
     position: absolute;
@@ -156,7 +156,7 @@ div.menu {
     color: white;
 }
 
-.menu i.material-icons{    
+.profmenu i.material-icons{    
     font-size: 25px;
 }
 
@@ -167,7 +167,7 @@ div.menu {
     background-color: rgb(100,100,100)
 }
 
-div.pic {
+div.profpic {
     grid-column: 1/5;
     grid-row: 2/6;
     margin: 2px;
@@ -177,7 +177,7 @@ div.pic {
     border-radius: 2.5px;
 }
 
-div.location {
+div.proflocation {
     grid-column: 5/7;
     grid-row: 5/6;
     color: white;
@@ -187,7 +187,7 @@ div.location {
 }
 
 
-div.age {
+div.profage {
     grid-column: 5/7;
     grid-row: 3/4;
     color: white;
@@ -197,7 +197,7 @@ div.age {
 }
 
 
-div.sex {
+div.profsex {
     grid-column: 5/7;
     grid-row: 4/5;
     color: white;
@@ -206,7 +206,7 @@ div.sex {
     
 }
 
-div.bioheader {
+div.profbioheader {
     grid-column: 1/7;
     grid-row: 6/7;
     border-radius: 2.5px;
@@ -214,25 +214,25 @@ div.bioheader {
     margin: 0.5vh;
 }
 
-div.name {
+div.profname {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin: 10px;
 }
 
-div.bio {
+div.profbio {
     grid-column: 1/7;
     grid-row: 7/12;
 }
 
-p.bio {
+p.profbio {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
 }
 
-div.footer {
+div.proffooter {
     grid-row: 12/13;
     grid-column: 1/7;
     background-color: rgb(226, 6, 197);
@@ -242,6 +242,7 @@ div.footer {
 
 
 
-.menu>li>a {
+.profmenu>li>a {
     color: white;
 }
+
