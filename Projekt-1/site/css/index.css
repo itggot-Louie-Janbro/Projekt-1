@@ -2,8 +2,7 @@
 body {
     background-color: black;
     margin: auto;
-    width: 100vw;
-    height: 90vh;
+
 }
 
 
@@ -40,6 +39,12 @@ div.loginlogin {
     grid-row: 6/7;
     margin: 0.5vh;
     margin: auto;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div.loginlogin>input {
@@ -230,14 +235,14 @@ div.profbio {
 }
 
 @media only screen and (max-device-width: 500px) {
-    p.profbio {
+    p {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         margin: 10px;
     }
 }
 
-p.profbio {
+p {
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
 }
@@ -257,47 +262,55 @@ div.proffooter {
 }
 
 
-.regfirstname {
-    grid-row: 7/8;
-    grid-column: 3/4;
+div.regfirstname {
+    grid-row: 6/7;
+    grid-column: 1/4;
     height: 20px;
-    width: 110px;
+    margin: 1px;
     margin: auto;
-    margin-right: 2px
 }
 
-.reglastname {
-    grid-row: 7/8;
-    grid-column: 4/5;
+div.reglastname {
+    grid-row: 6/7;
+    grid-column: 4/7;
     height: 20px;
-    width: 110px;
+    margin: 1px;
     margin: auto;
-    margin-left: 2px
 }
 
-.regemail {
+div.regemail {
+    grid-row: 7/8;
+    grid-column: 1/7 ;
+    height: 20px;
+    margin: auto;
+}
+
+div.regpassword {
     grid-row: 8/9;
-    grid-column: 3/5 ;
+    grid-column: 1/7;
     height: 20px;
+    margin: 1px;
     margin: auto;
-    width: 220px;
+
 }
 
-.regpassword {
-    grid-row: 9/10;
-    grid-column: 3/4;
-    height: 20px;
-    width: 110px;
-    margin: auto;
-    margin-right: 2px;
+input.regpassword {
+    width: 90vw;
 }
 
-.regconfpassword {
+input.regconfpassword {
+    width: 90vw;
+}
+
+input.regemail {
+    width: 90vw;
+}
+
+div.regconfpassword {
     grid-row: 9/10;
-    grid-column: 4/5;
+    grid-column: 1/7;
     height: 20px;
-    width: 110px;
+    margin: 1px;
     margin: auto;
-    margin-left: 2px
 }
 
