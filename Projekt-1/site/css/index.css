@@ -108,11 +108,14 @@ div.loginfooter {
 }
 
 @media only screen and (min-device-width: 500px) {
-    body{
-        background-color: darkgoldenrod;
+    div.container{
+        background-color: white;
     
     }
-}
+    body {
+        background-color: white;
+    }
+}   
 /* end of main.css */
 
 div.loginbutton>button>a {
@@ -226,8 +229,15 @@ div.profbio {
     grid-row: 7/12;
 }
 
+@media only screen and (max-device-width: 500px) {
+    p.profbio {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+    }
+}
+
 p.profbio {
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
 }
